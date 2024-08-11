@@ -1,0 +1,72 @@
+
+*{
+    font-family: Nunito;
+}
+.titulos{
+    color:purple;
+}
+#contenedor_titulos{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:  rgb(231, 144, 214);
+    padding: 10px;
+}
+.subtitulos{
+    color:rgb(219, 41, 219);
+
+}
+#contenedor_foto{
+    display:flex;
+    justify-content: center;
+    margin-left:25%;
+    width: 180px;
+    height: 230px;
+    background-color: rgb(166, 87, 166);
+    border-color: rgb(226, 67, 210);
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.foto_perfil{
+    width: 180px;
+    height: 230px; 
+    
+    border-color: rgb(226, 67, 210);
+}
+#caja_principal{
+    background-color:rgb(242, 220, 242);
+}
+
+#caja_fondo{
+    width: 60%;
+    height: 1400px;
+    background-color: rgb(215, 184, 244);
+    position: relative;
+    left: 20%;
+}
+#caja_izquierda{
+    width: 47% ;
+    height: 1300px;
+    background-color: rgb(232, 114, 232);
+    padding: 10px;
+}
+#caja_derecha{
+    width: 48% ;
+    height: 1378px;
+    background-color:white;
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    padding: 10px;
+}
+
+#caja_pequeña{
+    width: 47%;
+    height: 200px;
+    background-color: rgb(225, 159, 225);
+    position: absolute;
+    bottom: 3px;
+    padding: 10px;
+}
